@@ -15,5 +15,5 @@ pip install PIL
 ```
 - add following part to all your *tesseract* python files in the beginning, if *PATH* couldn't be changed 
 ```Python
-pytesseract.pytesseract.tesseract_cmd = 'C:/Users/nicolas.werbach/AppData/Local/Tesseract-OCR/tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = 'C:/Users/nicolas/AppData/Local/Tesseract-OCR/tesseract.exe'
 ```
