@@ -52,7 +52,7 @@ def convert_pdf(link, dpi):
 
         # In many PDFs at line ending a 'hyphen' is added to remove this:
         text = text.replace('-\n', '')
-        #data = data.replace('-\t', '')
+        #text = text.replace('-\t', '')
 
         # Finally write the processed text to file
         f.write(text.encode("utf-8"))
